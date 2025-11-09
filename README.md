@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This MCP server turns natural-language route and activity queries into live Google Maps calls and returns structured context for an AI assistant. It can:
+This MCP server turns queries on route-finding and fitness activities into live Google Maps calls and returns structured context for an AI assistant. It can:
 
-* turn “route to burn 300 calories” into a distance estimate
+* turn a query to “to burn X calories” into a followable route
 * fetch walking directions from Google Maps
 * optionally find nearby places to use as waypoints
 
