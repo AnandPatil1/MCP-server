@@ -79,7 +79,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-This starts the MCP server. When you go into Claude, click on "Search and Tools" and make sure the MCP server titled "map-routes" is fully enabled.
+This starts the MCP server. **When you go into Claude, click on "Search and Tools" and make sure the MCP server titled "map-routes" is fully enabled.**
 
 ## How It Works
 
