@@ -73,12 +73,13 @@ Notes:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+.\.venv\Scripts\activate  # For Windows
+# source .venv/bin/activate  # For Linux/MacOS
 pip install -r requirements.txt
 python main.py
 ```
 
-This starts the MCP server that exposes the tools defined in `main.py`.
+This starts the MCP server. When you go into Claude, click on "Search and Tools" and make sure the MCP server titled "map-routes" is fully enabled.
 
 ## How It Works
 
