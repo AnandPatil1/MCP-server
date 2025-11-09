@@ -40,6 +40,11 @@ Notes:
 * `DEFAULT_ORIGIN` is used when the query does not specify a start.
 * You can change these to locations relevant to you.
 
+## Server Entry / How to Query
+
+This MCP server is meant to be called by an MCP-capable client (for example Claude Desktop) that sends a natural-language query. The server receives the query, detects the intent (fitness route, directions, nearby place), fetches external data from Google Maps, and returns a structured context object that the AI can use to answer the user.
+
+
 ## Using with Claude Desktop
 
 If you want Claude Desktop to call this MCP server, add a new file (or update) called `claude_desktop_config.json` if it doesn't exist to register the server, for example:
