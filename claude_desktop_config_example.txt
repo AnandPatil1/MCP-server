@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "maps-routes": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\path\\to\\fitness-routes",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
